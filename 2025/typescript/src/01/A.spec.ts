@@ -1,7 +1,7 @@
 import { describe, test, expect } from "bun:test";
 import fc from "fast-check";
 
-import { parseSign, parseScale, solvePassword, moveDial } from "./01";
+import { parseSign, parseScale, solvePassword, moveDial } from "./A";
 
 describe("parseSign", () => {
   test('returns -1 when first character is "L"', () => {
